@@ -38,6 +38,7 @@ const contaAsHoras = setInterval(function () {
 
   if (distanciaAteOEvento < 0) {
     clearInterval(contaAsHoras);
-    document.getElementById("contador").innerHTML = "Evento expirado";
+    document.getElementsByClassName("hero__text")[0].innerHTML =
+      "O Evento de tecnologia foi expirado";
   }
 }, 1000);
