@@ -27,10 +27,10 @@ const contaAsHoras = setInterval(function () {
     (distanciaAteOEvento % minutoEmMs) / 1000
   );
 
-  console.log(diasAteOEvento);
+  /* console.log(diasAteOEvento);
   console.log(horasAteOEvento);
   console.log(minutosAteOEvento);
-  console.log(segundosAteOEvento);
+  console.log(segundosAteOEvento); */
 
   document.getElementById(
     "contador"
